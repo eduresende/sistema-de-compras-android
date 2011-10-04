@@ -1,0 +1,5 @@
+Sistema de compras
+
+Aparece uma lista de produtos, o usuário seleciona quais ele está comprando.
+
+Ao final, o programa soma os valores dos produtos e apresenta o total.
