@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Digite o seu produto" />
+	<CheckBox
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Arroz (R$ 2,69)"
+		android:id="@+id/chkarroz"></CheckBox>
+	<CheckBox
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Leite (R$ 5,00)"
+		android:id="@+id/chkleite"></CheckBox>
+	<CheckBox
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Carne (R$ 9,70)"
+		android:id="@+id/chkcarne"></CheckBox>
+	<CheckBox
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Feijão (R$ 2,30)"
+		android:id="@+id/chkfeijao"></CheckBox>
+	<Button
+		android:text="Total das compras"
+		android:id="@+id/btotal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+</LinearLayout>
